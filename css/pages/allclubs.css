@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Sliders Style */
+
+
+.nav{
+    width: 400px;
+    margin-left: 80px;
+    height: 300px;
+}
+
+/* Titles */
+
+
+.titles {
+    margin-top: 130px;
+}
+
+.titles p {
+   font-size: 25px;
+  
+}
+
+.titles .fa-trophy{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Best Moments */
+
+.box{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px white solid;
+    border-radius: 5px;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.box:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.box img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.play{
+    position: absolute;
+    font-size: 30px;
+}
+
+.text-none{
+    text-decoration: none;
+    color: white;
+}
+.text-none:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Sliders */
+
+/* Barcelona */
+
+.barca-page{
+    /* display: none; */
+    background: linear-gradient(#030B33 , #910623);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: auto;
+    -webkit-transition: all ease-in-out 1.5s;
+    -moz-transition: all ease-in-out 1.5s;
+    -o-transition: all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+    transform: translateY(-100%);
+    width: 100%;
+ }
+ 
+ .home-page{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+.home-page:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+/* Real Madrid */
+
+.real-page{
+    
+    background: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: auto;
+    -webkit-transition: all ease-in-out 1.5s;
+    -moz-transition: all ease-in-out 1.5s;
+    -o-transition: all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+    transform: translateY(-100%);
+    color: #030B33;
+ }
+
+ .home-page2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+.home-page2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* Man united */
+
+.man-page{
+    /* display: none; */
+    background: linear-gradient(rgb(233, 21, 21) , rgb(155, 11, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: auto;
+    -webkit-transition: all ease-in-out 1.5s;
+    -moz-transition: all ease-in-out 1.5s;
+    -o-transition: all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+    transform: translateY(-100%);
+ }
+
+ .home-page3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+.home-page3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* Juvintus */
+
+.juv-page{
+
+    background:linear-gradient(rgb(3, 26, 128) , black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: auto;
+    -webkit-transition: all ease-in-out 1.5s;
+    -moz-transition: all ease-in-out 1.5s;
+    -o-transition: all ease-in-out 1.5s;
+    transition: all ease-in-out 1.5s;
+    transform: translateY(-100%);
+}
+
+.home-page4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+}
+.home-page4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.tog{
+    transform: translateY(0);
+}
+
+.dis{
+    display: none;
+}
+
+
+
+
+
+/* Responsive */
+
+/* xs */
+
+@media(max-width:767px){
+
+    img.nav{
+       margin: 0 auto;
+   }
+
+   body{
+       height: auto;
+   }
+
+   .header{
+       font-size: 50px;
+   }
+
+   .history p{
+       font-size: 18px;
+   }
+
+   .box{
+       width:90%;
+       margin-top: 20px;
+   }
+
+   .best{
+       font-size: 50px;
+   }
+
+   img.nav{
+       width: 350px;
+   }
+
+}
+
+/* md */
+
+@media(min-width:768px)and (max-width:991px){
+    body{
+         height: auto;
+    }
+
+    .header{
+        font-size: 50px;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .header-hero{
+        justify-content: center;
+    }
+    .header-hero .ph{
+        margin-top: -100px;
+    }
+}
+
+
+/* Lg */
+
+@media(min-width:991px){
+    .box img{
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1100px){
+
+    .header-hero{
+        justify-content: center;
+    }
+    .header-hero .ph{
+        margin-top: -100px;
+    }
+}
