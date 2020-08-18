@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    background: url('../images/background.jpeg') center no-repeat;
 } 
 
 .video-cont{
@@ -25,17 +24,10 @@
     top: 0;
     left: 0;
 }
-.video-cont video{
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50% , -50%);
-    -moz-transform: translate(-50% , -50%);
-    -o-transform:translate(-50% , -50%);
-    transform: translate(-50% , -50%);
+.video-cont{
+    background: url('../images/background.jpg') bottom no-repeat;
+    background-size: cover;
+
 }
 
 .video-cont::after{
